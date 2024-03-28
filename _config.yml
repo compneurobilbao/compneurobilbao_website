@@ -1,0 +1,36 @@
+---
+title: CompNeuro Bilbao Lab
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: your-email@domain.com
+description: 'Website of the CompNeuro Lab.
+
+'
+baseurl: "/BilbaoLab"
+url: https://ifiriondo.github.io
+include:
+- ".htaccess"
+- _pages
+sass:
+  sass_dir: _sass
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
